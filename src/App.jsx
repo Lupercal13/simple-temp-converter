@@ -29,14 +29,14 @@ function App() {
               Convert temps easily from Farenheit to Celsius or vice-versa
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center gap-8 mt-20">
+          <div className="flex flex-col justify-center items-center gap-8 mt-20 ">
       
             <input
               type="text"
               id="tempInput"
               ref={inputRef}
               placeholder="Temp in ºC or ºF"
-              className="border-2 border-black px-2 py-1 bg-gray-50/60 text-lg focus:border-transparent"
+              className="border-2 border-black px-2 py-1 bg-gray-50/60 text-lg  focus:border-transparent w-[80%]"
             />
            <span className="text-5xl font-bold text-red-500 h-10 drop-shadow-lg ">{output}</span>
           </div>
